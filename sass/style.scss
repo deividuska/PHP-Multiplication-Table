@@ -1,0 +1,38 @@
+main {
+    width: 290px;
+    padding: 50px;
+    margin:0 auto;
+    background-color: #EB870F;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-text {
+    color: #fff;
+    margin-top:-20px;
+    margin-bottom: 15px;
+    span {
+    padding: 5px 10px;
+    background-color: #ed9531;
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+}
+table {
+    border-collapse: collapse;
+    background-color:#fff;
+    box-shadow: 4px 4px rgba(0, 0, 0, .3);
+}
+td {
+    text-align: center;
+    padding: 5px;
+    }
+th:first-child {
+    background:#ccc;}
+tr:first-child {
+    background:#ccc;}
+
+tr:nth-child(2n+3){
+    background: #f4f4f4;
+}
